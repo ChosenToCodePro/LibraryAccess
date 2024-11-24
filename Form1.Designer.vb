@@ -116,7 +116,9 @@ Partial Class Form1
         Controls.Add(Label1)
         Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "The Library of Alexandria"
+        TopMost = True
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

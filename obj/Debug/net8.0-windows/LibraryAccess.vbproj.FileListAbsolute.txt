@@ -32,3 +32,5 @@ D:\DevFiles\IDE\Visual Studio Projects\LibraryAccess\bin\Debug\net8.0-windows\ru
 D:\DevFiles\IDE\Visual Studio Projects\LibraryAccess\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
 D:\DevFiles\IDE\Visual Studio Projects\LibraryAccess\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 D:\DevFiles\IDE\Visual Studio Projects\LibraryAccess\obj\Debug\net8.0-windows\LibraryA.2114D7AD.Up2Date
+D:\DevFiles\IDE\Visual Studio Projects\LibraryAccess\obj\Debug\net8.0-windows\LibraryAccess.sourcelink.json
+D:\DevFiles\IDE\Visual Studio Projects\LibraryAccess\obj\Debug\net8.0-windows\LibraryAccess.Form4.resources
