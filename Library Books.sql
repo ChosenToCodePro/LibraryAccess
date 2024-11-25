@@ -1,0 +1,67 @@
+CREATE DATABASE IF NOT EXISTS lib_data;
+
+USE lib_data;
+
+CREATE TABLE IF NOT EXISTS books(
+	BookID INT PRIMARY KEY,
+	Title VARCHAR(50),
+	Author VARCHAR(50),
+	Publisher VARCHAR(50),
+	YearPublished DATE,
+	Genre VARCHAR(50),
+	Category VARCHAR(10)
+);
+
+INSERT INTO Books (BookID, Title, Author, Publisher, YearPublished, Genre, Category) VALUES
+(1, 'To Kill a Mockingbird', 'Harper Lee', 'J.B. Lippincott & Co.', '1960-07-11', 'Fiction', 'Classic'),
+(2, '1984', 'George Orwell', 'Secker & Warburg', '1949-06-08', 'Dystopian', 'Political Fiction'),
+(3, 'Pride and Prejudice', 'Jane Austen', 'T. Egerton', '1813-01-28', 'Romance', 'Literature'),
+(4, 'The Great Gatsby', 'F. Scott Fitzgerald', 'Charles Scribner\'s Sons', '1925-04-10', 'Fiction', 'American Literature'),
+(5, 'Moby Dick', 'Herman Melville', 'Harper & Brothers', '1851-10-18', 'Adventure', 'Classic'),
+(6, 'War and Peace', 'Leo Tolstoy', 'The Russian Messenger', '1869-01-01', 'Historical Fiction', 'Epic Novel'),
+(7, 'The Catcher in the Rye', 'J.D. Salinger', 'Little, Brown and Company', '1951-07-16', 'Fiction', 'Coming-of-Age'),
+(8, 'Brave New World', 'Aldous Huxley', 'Chatto & Windus', '1932-08-31', 'Science Fiction', 'Philosophical Fiction'),
+(9, 'Jane Eyre', 'Charlotte Brontë', 'Smith, Elder & Co.', '1847-10-16', 'Gothic Fiction', 'Classic'),
+(10, 'The Hobbit', 'J.R.R. Tolkien', 'George Allen & Unwin', '1937-09-21', 'Fantasy', 'Children\'s Literature'),
+(11, 'Harry Potter and the Sorcerer\'s Stone', 'J.K. Rowling', 'Bloomsbury', '1997-06-26', 'Fantasy', 'Young Adult'),
+(12, 'The Road', 'Cormac McCarthy', 'Alfred A. Knopf', '2006-09-26', 'Post-Apocalyptic', 'Modern Fiction'),
+(13, 'The Alchemist', 'Paulo Coelho', 'HarperOne', '1988-05-01', 'Philosophical', 'Inspirational'),
+(14, 'The Book Thief', 'Markus Zusak', 'Picador', '2005-03-14', 'Historical Fiction', 'Young Adult'),
+(15, 'Fahrenheit 451', 'Ray Bradbury', 'Ballantine Books', '1953-10-19', 'Dystopian', 'Science Fiction'),
+(16, 'The Shining', 'Stephen King', 'Doubleday', '1977-01-28', 'Horror', 'Suspense'),
+(17, 'Crime and Punishment', 'Fyodor Dostoevsky', 'The Russian Messenger', '1866-01-15', 'Psychological Fiction', 'Classic'),
+(18, 'The Hunger Games', 'Suzanne Collins', 'Scholastic Press', '2008-09-14', 'Dystopian', 'Young Adult'),
+(19, 'Life of Pi', 'Yann Martel', 'Knopf Canada', '2001-09-11', 'Adventure', 'Philosophical Fiction'),
+(20, 'The Picture of Dorian Gray', 'Oscar Wilde', 'Ward, Lock & Co.', '1890-07-20', 'Philosophical', 'Gothic Fiction'),
+(21, 'The Midnight Library', 'Matt Haig', 'Canongate Books', '2020-08-13', 'Fiction', 'Philosophical Fiction'),
+(22, 'Project Hail Mary', 'Andy Weir', 'Ballantine Books', '2021-05-04', 'Science Fiction', 'Space Exploration'),
+(23, 'Klara and the Sun', 'Kazuo Ishiguro', 'Faber & Faber', '2021-03-02', 'Science Fiction', 'Literary Fiction'),
+(24, 'Lessons in Chemistry', 'Bonnie Garmus', 'Doubleday', '2022-04-05', 'Fiction', 'Historical Fiction'),
+(25, 'Tomorrow, and Tomorrow, and Tomorrow', 'Gabrielle Zevin', 'Knopf', '2022-07-05', 'Fiction', 'Contemporary Fiction'),
+(26, 'The Invisible Life of Addie LaRue', 'V.E. Schwab', 'Tor Books', '2020-10-06', 'Fantasy', 'Historical Fantasy'),
+(27, 'A Court of Silver Flames', 'Sarah J. Maas', 'Bloomsbury', '2021-02-16', 'Fantasy', 'Romantic Fantasy'),
+(28, 'The Atlas Six', 'Olivie Blake', 'Tor Books', '2022-03-01', 'Fantasy', 'Dark Academia'),
+(29, 'The House in the Cerulean Sea', 'TJ Klune', 'Tor Books', '2020-03-17', 'Fantasy', 'LGBTQ+ Fiction'),
+(30, 'Before We Were Strangers', 'Renée Carlino', 'Atria Books', '2023-02-14', 'Romance', 'Contemporary Romance'),
+(31, 'Fourth Wing', 'Rebecca Yarros', 'Red Tower Books', '2023-05-02', 'Fantasy', 'Epic Fantasy'),
+(32, 'Fairy Tale', 'Stephen King', 'Scribner', '2022-09-06', 'Horror', 'Dark Fantasy'),
+(33, 'It Ends with Us', 'Colleen Hoover', 'Atria Books', '2016-08-02', 'Romance', 'Contemporary Fiction'),
+(34, 'Reminders of Him', 'Colleen Hoover', 'Montlake', '2022-01-18', 'Romance', 'Emotional Fiction'),
+(35, 'Book Lovers', 'Emily Henry', 'Berkley', '2022-05-03', 'Romance', 'Rom-Com'),
+(36, 'Malibu Rising', 'Taylor Jenkins Reid', 'Ballantine Books', '2021-06-01', 'Fiction', 'Historical Drama'),
+(37, 'The Seven Husbands of Evelyn Hugo', 'Taylor Jenkins Reid', 'Atria Books', '2017-06-13', 'Fiction', 'LGBTQ+ Fiction'),
+(38, 'Verity', 'Colleen Hoover', 'Independently Published', '2018-12-07', 'Thriller', 'Psychological Thriller'),
+(39, 'Shatter Me', 'Tahereh Mafi', 'HarperCollins', '2023-01-24', 'Science Fiction', 'Dystopian'),
+(40, 'Chain of Thorns', 'Cassandra Clare', 'Margaret K. McElderry Books', '2023-01-31', 'Fantasy', 'Young Adult'),
+(41, 'The Priory of the Orange Tree', 'Samantha Shannon', 'Bloomsbury', '2019-02-26', 'Fantasy', 'Epic Fantasy'),
+(42, 'Babel: Or the Necessity of Violence', 'R.F. Kuang', 'Harper Voyager', '2022-08-23', 'Fantasy', 'Dark Academia'),
+(43, 'The Paris Library', 'Janet Skeslien Charles', 'Atria Books', '2021-02-09', 'Historical Fiction', 'World War II Fiction'),
+(44, 'A Flicker in the Dark', 'Stacy Willingham', 'Minotaur Books', '2022-01-11', 'Thriller', 'Psychological Thriller'),
+(45, 'The Paper Palace', 'Miranda Cowley Heller', 'Riverhead Books', '2021-07-06', 'Fiction', 'Contemporary Fiction'),
+(46, 'One Italian Summer', 'Rebecca Serle', 'Atria Books', '2022-03-01', 'Fiction', 'Travel Fiction'),
+(47, 'Love on the Brain', 'Ali Hazelwood', 'Berkley', '2022-08-23', 'Romance', 'Rom-Com'),
+(48, 'Legends and Lattes', 'Travis Baldree', 'Cryptid Press', '2022-02-22', 'Fantasy', 'Cozy Fantasy'),
+(49, 'The Light We Carry', 'Michelle Obama', 'Crown', '2022-11-15', 'Non-Fiction', 'Memoir'),
+(50, 'I’m Glad My Mom Died', 'Jennette McCurdy', 'Simon & Schuster', '2022-08-09', 'Non-Fiction', 'Memoir');
+
+SELECT * FROM books;
