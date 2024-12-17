@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{30B347C0-E42E-4D3C-8883-DAFCEFC58C07}|LibraryAccess.vbproj|d:\\devfiles\\ide\\visual studio projects\\libraryaccess\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{30B347C0-E42E-4D3C-8883-DAFCEFC58C07}|LibraryAccess.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B347C0-E42E-4D3C-8883-DAFCEFC58C07}|LibraryAccess.vbproj|d:\\devfiles\\ide\\visual studio projects\\libraryaccess\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{30B347C0-E42E-4D3C-8883-DAFCEFC58C07}|LibraryAccess.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30B347C0-E42E-4D3C-8883-DAFCEFC58C07}|LibraryAccess.vbproj|d:\\devfiles\\ide\\visual studio projects\\libraryaccess\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{30B347C0-E42E-4D3C-8883-DAFCEFC58C07}|LibraryAccess.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
@@ -21,19 +29,6 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form2.vb",
-              "DocumentMoniker": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form2.vb",
-              "RelativeDocumentMoniker": "Form2.vb",
-              "ToolTip": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form2.vb",
-              "RelativeToolTip": "Form2.vb",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwDYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-07T03:26:24.74Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -46,12 +41,45 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T15:04:25.684Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form2.vb",
+              "RelativeToolTip": "Form2.vb",
+              "ViewState": "AgIAAG0AAAAAAAAAAAASwHsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T15:03:44.088Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form3.vb [Design]",
+              "DocumentMoniker": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form3.vb",
+              "RelativeDocumentMoniker": "Form3.vb",
+              "ToolTip": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form3.vb [Design]",
+              "RelativeToolTip": "Form3.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T15:01:39.669Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "D:\\DevFiles\\IDE\\Visual Studio Projects\\LibraryAccess\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",

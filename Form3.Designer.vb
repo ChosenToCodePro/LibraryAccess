@@ -264,6 +264,9 @@ Partial Class Form3
         Controls.Add(Label3)
         Controls.Add(TitleInfo)
         Controls.Add(Label1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "Form3"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Book Information"

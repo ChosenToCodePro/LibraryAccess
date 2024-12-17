@@ -51,13 +51,11 @@ Public Class Form2
     Private Sub RecentListView_DoubleClick(sender As Object, e As EventArgs) Handles RecentListView.DoubleClick, RecentListView.Click
         ShuffleBox.SelectedIndices.Clear()
         AllBooks.SelectedIndices.Clear()
-        AddBook.Enabled = False
         Delete.Enabled = False
     End Sub
     Private Sub ShuffleBox_DoubleClick(sender As Object, e As EventArgs) Handles ShuffleBox.DoubleClick, ShuffleBox.Click
         RecentListView.SelectedIndices.Clear()
         AllBooks.SelectedIndices.Clear()
-        AddBook.Enabled = False
         Delete.Enabled = False
     End Sub
     Private Sub AllBooks_DoubleClick(sender As Object, e As EventArgs) Handles AllBooks.DoubleClick, AllBooks.Click
@@ -215,9 +213,13 @@ Public Class Form2
         Next
     End Sub
 
-    Private Sub AdminChoice_CheckedChanged(sender As Object, e As EventArgs) Handles AdminChoice.CheckedChanged, UserChoice.CheckedChanged
+    Private Sub AdminChoice_CheckedChanged(sender As Object, e As EventArgs) Handles AdminChoice.CheckedChanged
         AddBook.Visible = True
         Delete.Visible = True
+    End Sub
+    Private Sub UserChoice_CheckedChanged(sender As Object, e As EventArgs) Handles UserChoice.CheckedChanged
+        AddBook.Visible = False
+        Delete.Visible = False
     End Sub
     Private Sub AllBooks_SelectedIndexChanged(sender As Object, e As EventArgs) Handles AllBooks.SelectedIndexChanged
         AddBook.Enabled = True

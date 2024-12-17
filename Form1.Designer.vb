@@ -115,6 +115,9 @@ Partial Class Form1
         Controls.Add(Label2)
         Controls.Add(Label1)
         Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
         Text = "The Library of Alexandria"

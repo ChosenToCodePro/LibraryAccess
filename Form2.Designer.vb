@@ -215,7 +215,6 @@ Partial Class Form2
         ' 
         ' AddBook
         ' 
-        AddBook.Enabled = False
         AddBook.Font = New Font("Poppins", 10F)
         AddBook.Location = New Point(690, 529)
         AddBook.Name = "AddBook"
@@ -289,6 +288,9 @@ Partial Class Form2
         Controls.Add(Label3)
         Controls.Add(Label1)
         Controls.Add(RefreshAll)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "Form2"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Library of Alexandria"
