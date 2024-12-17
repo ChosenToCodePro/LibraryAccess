@@ -215,6 +215,7 @@ Partial Class Form2
         ' 
         ' AddBook
         ' 
+        AddBook.Enabled = False
         AddBook.Font = New Font("Poppins", 10F)
         AddBook.Location = New Point(690, 529)
         AddBook.Name = "AddBook"
@@ -222,9 +223,11 @@ Partial Class Form2
         AddBook.TabIndex = 27
         AddBook.Text = "Add a New Book"
         AddBook.UseVisualStyleBackColor = True
+        AddBook.Visible = False
         ' 
         ' Delete
         ' 
+        Delete.Enabled = False
         Delete.Font = New Font("Poppins", 10F)
         Delete.Location = New Point(835, 529)
         Delete.Name = "Delete"
@@ -232,6 +235,7 @@ Partial Class Form2
         Delete.TabIndex = 26
         Delete.Text = "Delete"
         Delete.UseVisualStyleBackColor = True
+        Delete.Visible = False
         ' 
         ' SearchResults
         ' 
